@@ -4,7 +4,7 @@ The urls are first extracted from the Google Spreadsheet. The links to the pdfs 
 
 ## Required Files:
 1. Tesseract
-2. Tesseract Hindi Trained File (download from repo and paste it in the tesseract folder)
+2. Tesseract Hindi Trained File (![Download]() and paste it in the tesseract folder)
 
 ```zsh
 
