@@ -34,10 +34,10 @@ if __name__ == "__main__":
                     pass
         else:
             pdf_url = link
-            pdfs.append({
-                "page-url": link,
-                "pdf-url": pdf_url,
-                "pdf-content": convert(pdf_url)
-            })
+        pdfs.append({
+            "page-url": link,
+            "pdf-url": pdf_url,
+            "pdf-content": convert(pdf_url)
+        })
     with open('pdf_extract.json', 'w') as jsonfile:
             json.dump(pdfs, jsonfile)
